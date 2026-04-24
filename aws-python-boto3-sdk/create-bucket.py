@@ -42,7 +42,7 @@ create_s3_bucket(bucket_name,region)
 
 3. Then save the file using ESC:wq!
 
-4. Then cat create-bucket.py to  check the contents of the file
+4. Then cat create-bucket.py to check the contents of the file
 
 5. check python is running on EC2 instance "python3 create-bucket.py"
 
@@ -51,6 +51,8 @@ create_s3_bucket(bucket_name,region)
 7. This shows bucket has been created.
 
 8. To see the contents of the S3 bucket, type aws s3 ls.
+ 
+
 
 
 
