@@ -106,3 +106,12 @@ aws ec2 run-instances  --region eu-west-2 --image-id "ami-0685f8dd865c8e389" --c
 # Command  to  terminate EC2  instance
 
 aws ec2 terminate-instances --instance-ids i-08e870ec9e18b54fd
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Automation using Python SDK boto 3:
+
+# Command to create an S3 bucket using python boto 3
+
+
