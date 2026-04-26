@@ -29,7 +29,7 @@ delete_s3_bucket(bucket_name)
 
 steps to follow:
 
-1. 1. Create the file using vi delete-bucket.py
+1. Create the file using vi delete-bucket.py
 
 2. paste code 
 

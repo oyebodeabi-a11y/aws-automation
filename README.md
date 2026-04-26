@@ -1,6 +1,6 @@
 # aws-automation
 
-# Commands to automake AWS S3 bucket tasks:
+# Commands to automate AWS S3 bucket tasks:
 
 # Command to copy files to s3 bucket
 
