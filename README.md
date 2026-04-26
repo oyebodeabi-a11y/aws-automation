@@ -1,6 +1,6 @@
 # aws-automation
 
-## Commands to automake AWS S3 bucket tasks:
+# Commands to automake AWS S3 bucket tasks:
 
 # Command to copy files to s3 bucket
 
@@ -28,7 +28,7 @@ aws s3 rm s3://awstraining-abby1/ --recursive
 
  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- ## Commands to automate tasks for IAM user
+ # Commands to automate tasks for IAM user
 
  # command to create an IAM user
 
@@ -44,7 +44,7 @@ aws iam delete-user --user-name Bob
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Commands for key pairs
+# Commands for key pairs
 
 # Command to create key pairs
 aws ec2 create-key-pair --key-name myKeyPair
@@ -55,7 +55,7 @@ aws ec2 describe-key-pairs
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Comands for VPC
+# Comands for VPC
 
 # Command to create VPC
 
@@ -110,7 +110,7 @@ aws ec2 terminate-instances --instance-ids i-08e870ec9e18b54fd
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## AWS Automation using Python SDK boto 3:
+# AWS Automation using Python SDK boto 3:
 
 # Command to create an S3 bucket using python boto 3
 
