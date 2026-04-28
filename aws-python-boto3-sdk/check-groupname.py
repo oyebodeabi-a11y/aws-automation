@@ -2,12 +2,13 @@
 
 import boto3
 iam=boto3.resource('iam')
-
+print("enter the group name to search")
+groupname = input()
 def list_iam_users_group():
     
     print('connecting to Iam')
    # iam=boto3.resource('iam')
-    group=iam.Group("Developers").users.all()
+    group=iam.Group(groupname).users.all()
    
     #create list of users
     print('list of users')
@@ -17,4 +18,3 @@ def list_iam_users_group():
     #return names
 
 list_iam_users_group()
-
